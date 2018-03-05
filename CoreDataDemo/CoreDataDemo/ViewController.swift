@@ -13,17 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    @IBAction func addButton(_ sender: Any) {
-    }
-    @IBAction func deleteButton(_ sender: Any) {
-    }
-   
-    @IBAction func modifyButton(_ sender: Any) {
+        
     }
     
-    @IBAction func queryButton(_ sender: Any) {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let schoolVC = SchoolViewController()
+        self.present(schoolVC, animated: true, completion: nil)
     }
 }
 

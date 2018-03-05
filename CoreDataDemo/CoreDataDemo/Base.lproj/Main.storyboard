@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,75 +16,7 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ev7-2O-t14">
-                                <rect key="frame" x="137" y="120" width="100" height="50"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="KEN-FI-1lF"/>
-                                    <constraint firstAttribute="height" constant="50" id="LsE-bb-vWe"/>
-                                </constraints>
-                                <state key="normal" title="增">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="addButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TId-Mj-uov"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzx-cQ-p6C">
-                                <rect key="frame" x="137" y="210" width="100" height="50"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="adb-5x-8pq"/>
-                                    <constraint firstAttribute="height" constant="50" id="fnQ-0M-7pf"/>
-                                </constraints>
-                                <state key="normal" title="删">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="deleteButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HZm-b6-iSi"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rbo-Za-aTG">
-                                <rect key="frame" x="137" y="300" width="100" height="50"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="6QU-bj-ITM"/>
-                                    <constraint firstAttribute="width" constant="100" id="tLr-Wq-fAb"/>
-                                </constraints>
-                                <state key="normal" title="改">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="modifyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uwT-tH-NMR"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmJ-Kj-OIq">
-                                <rect key="frame" x="137" y="390" width="100" height="50"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="9BC-92-lvC"/>
-                                    <constraint firstAttribute="width" constant="100" id="Nbj-pk-m2R"/>
-                                </constraints>
-                                <state key="normal" title="查">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="queryButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g03-up-dAJ"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="nzx-cQ-p6C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6e1-Yz-LB6"/>
-                            <constraint firstItem="Rbo-Za-aTG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8MT-3x-efW"/>
-                            <constraint firstItem="nzx-cQ-p6C" firstAttribute="top" secondItem="ev7-2O-t14" secondAttribute="bottom" constant="40" id="DyQ-bI-MTj"/>
-                            <constraint firstItem="ev7-2O-t14" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LEZ-sm-YpX"/>
-                            <constraint firstItem="Rbo-Za-aTG" firstAttribute="top" secondItem="nzx-cQ-p6C" secondAttribute="bottom" constant="40" id="Z3d-zv-Php"/>
-                            <constraint firstItem="ev7-2O-t14" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="gdu-8q-525"/>
-                            <constraint firstItem="xmJ-Kj-OIq" firstAttribute="top" secondItem="Rbo-Za-aTG" secondAttribute="bottom" constant="40" id="rg9-a5-thy"/>
-                            <constraint firstItem="xmJ-Kj-OIq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w52-xk-8J7"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
