@@ -13,6 +13,7 @@
 		B60F6B712048F5940068992D /* PersonInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60F6B6D2048F5940068992D /* PersonInfo+CoreDataProperties.swift */; };
 		B60F6B732048FD370068992D /* SchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60F6B722048FD360068992D /* SchoolViewController.swift */; };
 		B60F6B752049040E0068992D /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60F6B742049040D0068992D /* SchoolTableViewCell.swift */; };
+		B6B2117F204E827500FDBB29 /* SchoolDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B2117E204E827500FDBB29 /* SchoolDataManager.swift */; };
 		B6ED27E52048427500B6917B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED27E42048427500B6917B /* AppDelegate.swift */; };
 		B6ED27E72048427500B6917B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED27E62048427500B6917B /* ViewController.swift */; };
 		B6ED27EA2048427500B6917B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6ED27E82048427500B6917B /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		B60F6B6D2048F5940068992D /* PersonInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PersonInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		B60F6B722048FD360068992D /* SchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewController.swift; sourceTree = "<group>"; };
 		B60F6B742049040D0068992D /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolTableViewCell.swift; sourceTree = "<group>"; };
+		B6B2117E204E827500FDBB29 /* SchoolDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDataManager.swift; sourceTree = "<group>"; };
 		B6ED27E12048427500B6917B /* CoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6ED27E42048427500B6917B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6ED27E62048427500B6917B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				B60F6B6D2048F5940068992D /* PersonInfo+CoreDataProperties.swift */,
 				B60F6B722048FD360068992D /* SchoolViewController.swift */,
 				B60F6B742049040D0068992D /* SchoolTableViewCell.swift */,
+				B6B2117E204E827500FDBB29 /* SchoolDataManager.swift */,
 			);
 			path = School;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				B6ED27E72048427500B6917B /* ViewController.swift in Sources */,
 				B60F6B6E2048F5940068992D /* Employee+CoreDataProperties.swift in Sources */,
 				B6ED28142048438F00B6917B /* Company.xcdatamodeld in Sources */,
+				B6B2117F204E827500FDBB29 /* SchoolDataManager.swift in Sources */,
 				B60F6B6F2048F5940068992D /* Employee+CoreDataClass.swift in Sources */,
 				B60F6B732048FD370068992D /* SchoolViewController.swift in Sources */,
 				B60F6B712048F5940068992D /* PersonInfo+CoreDataProperties.swift in Sources */,

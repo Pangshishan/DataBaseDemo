@@ -45,7 +45,6 @@ extension SchoolViewController {
         button1.addTarget(self, action: #selector(clickAddButton), for: .touchUpInside)
         button1.frame = CGRect.init(x: 0, y: UIScreen.main.bounds.size.height - 40, width: UIScreen.main.bounds.size.width / 2, height: 40);
         
-        
         let button2 = UIButton.init(type: .custom)
         view.addSubview(button2)
         button2.backgroundColor = UIColor.blue

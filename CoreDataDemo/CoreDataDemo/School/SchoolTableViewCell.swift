@@ -15,11 +15,6 @@ class SchoolTableViewCell: UITableViewCell {
     @objc var sexLabel: UILabel!// = UILabel()
     @objc var ageLabel: UILabel!// = UILabel()
 
-
-    
-//    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
-//        <#code#>
-//    }
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.setupUI()
